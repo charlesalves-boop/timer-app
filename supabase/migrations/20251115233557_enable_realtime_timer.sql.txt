@@ -1,0 +1,9 @@
+/*
+  # Enable realtime for timer table
+
+  1. Changes
+    - Enable realtime replication for timer table
+    - This allows clients to subscribe to changes in real-time
+*/
+
+ALTER PUBLICATION supabase_realtime ADD TABLE timer;
